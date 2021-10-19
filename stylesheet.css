@@ -1,0 +1,93 @@
+body{
+    margin: 0 auto;
+    font-family: 'Gaegu';
+    color:#707070;
+    text-align: center;
+    margin: 0px;
+  }
+  .wrapper{
+    width:100%;
+    text-align: center;
+    background-color: #A4EBF3;
+  }
+  .wrapper h4{
+    font-size: 38px;
+    margin:0px;
+  }
+  .wrapper p {
+    font-size: 16px;
+    margin-top:0px;
+    text-align: center;
+    }
+  form{
+    padding-top: 30px;
+    padding-bottom: 60px;
+    background-color: #A4EBF3;
+    font-family: 'Gaegu';
+    color:#707070;
+  
+  }
+  input, textarea{
+    width: 440px;
+    padding: 12px;
+    margin: 0 auto;
+    font-size: 16px;
+    border: 1px solid #dee7ec;
+    border-radius: 16px;
+    font-family: 'Gaegu';
+    color:#707070;
+    }
+  textarea{
+    height: 105px;
+  }
+  .btn {
+    padding: 20px;
+    color: black;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Gaegu';
+    }
+    
+  .btn:hover {
+    opacity: 1;
+    }
+  .ulasan_data{
+    margin-left:50px;
+    margin-right: 10px;
+  }
+  .ulasan_kirim{
+    margin-left: 10px;
+    margin-right: 80px;
+  }
+  .message {
+    margin-top: 32px;
+    padding: 10px 32px;
+    background-color: #7e7e7e;
+    cursor: pointer;
+    display: inline-block;
+    box-shadow: 0 5px #555555;
+    color:#F4F9F9;
+    }
+  .message:active{
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+    }
+  ul{
+    list-style: none;
+    padding-right: 35px;
+    text-align: center;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    color:#707070;
+  }
+  li{
+    flex: auto;
+  }
+  .ket{
+    margin-bottom:0px;
+  }
